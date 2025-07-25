@@ -7,5 +7,5 @@ if (cash > price) {
 } else if (cash === price) {
   console.log("you paid exact - have a nice day");
 } else {
-  console.log(`not enough money - you still owe me ${difference} dollars`);
+  console.log(`not enough money - you still owe me ${difference * -1} dollars`);
 }
