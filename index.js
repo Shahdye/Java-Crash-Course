@@ -1,8 +1,12 @@
-let val = "Emmanuel"
+let cash = 50
+let price = 40
+let difference = cash - price
+let isStoreOpen = true
 
-if (val) {
-    console.log(!!val)
+if (cash > price && isStoreOpen){
+    console.log(`give receipt`)
 }
-else {
-    console.log(!!val)
+
+else (cash < price || isStoreOpen === false){
+    console.log('do not give receipt')
 }
