@@ -1,7 +1,7 @@
-function welcomePersonToFES(name) {
-    console.log(name)
+function welcomePersonToFES(firstName, lastName) {
+    console.log(`Welcome To FES, ${firstName} ${lastName}`)
 }
 
-welcomePersonToFES('David');
-welcomePersonToFES('Zen');
-welcomePersonToFES('Mitri');
+welcomePersonToFES('David', 'Bragg');
+welcomePersonToFES('Zen', 'Li');
+welcomePersonToFES('Mitri', 'Martin');
