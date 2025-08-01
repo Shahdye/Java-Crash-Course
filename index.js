@@ -1,7 +1,6 @@
-function welcomePersonToFES(firstName, lastName) {
-    console.log(`Welcome To FES, ${firstName} ${lastName}`)
+function convertCelsiusToFahrenheit(celsius){
+    let fahrenheit = celsius * 1.8 + 32
+    return fahrenheit
 }
 
-welcomePersonToFES('David', 'Bragg');
-welcomePersonToFES('Zen', 'Li');
-welcomePersonToFES('Mitri', 'Martin');
+console.log(convertCelsiusToFahrenheit(0))
