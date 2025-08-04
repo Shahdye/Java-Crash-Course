@@ -1,5 +1,10 @@
-let arr = [20, 30, 40, 50, 100];
+let grades = ["A+", "A", "FAIL"];
 
-let newArr = arr.filter((element) => element < 50);
+let goodGrades = grades.filter((element) => {
+  console.log(element);
+  if (element !== "FAIL") {
+    return true;
+  }
+});
 
-console.log(newArr);
+console.log(goodGrades)
