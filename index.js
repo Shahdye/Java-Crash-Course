@@ -1,5 +1,5 @@
 let grades = ["A+", "A", "FAIL"];
 
-let goodGrades = grades.filter((element) => element !== "FAIL");
-
-console.log(goodGrades);
+for (let i = 0; i < grades.length; ++i) {
+  console.log(grades[i]);
+}
