@@ -1,7 +1,11 @@
 let grades = ["A+", "A", "FAIL"];
 
-let goodGrades = ["A+", "A"];
+let goodGrades = [];
 
 for (let i = 0; i < grades.length; ++i) {
-  if (i !== "FAIL") console.log(grades[i]);
+  if (grades[i] !== "FAIL") {
+    goodGrades.push(grades[i]);
+  }
 }
+
+console.log(goodGrades);
