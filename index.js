@@ -4,3 +4,7 @@ let user = {
   subsciptionStatus: "VIP",
   discordID: "David Bragg#0001",
 };
+
+console.log(user.username);
+
+console.log(user.email);
