@@ -22,3 +22,18 @@ function login(email, password) {
   }
   console.log("could not find an email that matches");
 }
+
+login("");
+
+function register(
+  username,
+  email,
+  password,
+  subsciptionStatus,
+  discordID,
+  lessonsCompleted
+) {
+  console.log(email, password);
+}
+
+register("zen", "zenFES@gmail.com", "zen123", "VIP", "Zen#0001", [0, 1]);
