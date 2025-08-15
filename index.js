@@ -1,8 +1,7 @@
-document.querySelector('#title').innerHTML += "FES SIMPLIFIED"
+document.querySelector("#title").innerHTML += "FES SIMPLIFIED";
 
-document.querySelector('#title').style.color = 'red'
+document.querySelector("#title").style.fontSize = "10px";
 
 function changeTitleToRed() {
-    console.log();
+  document.querySelector("#title").style.color = "red";
 }
-
