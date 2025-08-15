@@ -1,4 +1,4 @@
 document.querySelector('#title').innerHTML += "FES SIMPLIFIED"
 
-document.querySelector('#title')
+document.querySelector('#title').style.color = 'red'
 
